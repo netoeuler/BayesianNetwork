@@ -1,6 +1,9 @@
 #Import required packages
 import math
 from pomegranate import *
+
+#Bayesian network based on the graph of the following example: https://towardsdatascience.com/introduction-to-bayesian-networks-81031eeed94e
+#Code based on the following example: https://www.edureka.co/blog/bayesian-networks/
  
 cloudy =DiscreteDistribution( { 'T': 0.5, 'F': 0.5 } )
 
